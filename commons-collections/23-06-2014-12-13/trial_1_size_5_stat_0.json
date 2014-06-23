@@ -1,0 +1,114 @@
+{
+   "transformations":[
+      {
+         "failures":[
+
+         ],
+         "variableMapping":{
+            "last":"result"
+         },
+         "name":"add",
+         "transplant":{
+            "sourceCode":"E = null",
+            "position":"org.apache.commons.collections4.list.SetUniqueList:372",
+            "type":"CtAssignmentImpl"
+         },
+         "type":"adrStmt",
+         "transplantationPoint":{
+            "sourceCode":"E = java.util.ListIterator<E>.next()",
+            "position":"org.apache.commons.collections4.iterators.LoopingListIterator:147",
+            "type":"CtAssignmentImpl"
+         },
+         "status":0
+      },
+      {
+         "failures":[
+
+         ],
+         "variableMapping":{
+
+         },
+         "name":"addReaction",
+         "transplant":{
+            "sourceCode":"E E = null",
+            "position":"org.apache.commons.collections4.iterators.CollatingIterator:354",
+            "type":"CtLocalVariableImpl"
+         },
+         "type":"adrStmt",
+         "transplantationPoint":{
+            "sourceCode":"final E E = java.util.ListIterator<E>.next()",
+            "position":"org.apache.commons.collections4.iterators.ReverseListIterator:107",
+            "type":"CtLocalVariableImpl"
+         },
+         "status":0
+      },
+      {
+         "failures":[
+
+         ],
+         "variableMapping":{
+
+         },
+         "name":"addRandom",
+         "transplant":{
+            "sourceCode":"if (org.apache.commons.collections4.Predicate<? super T> == null) {\r\n    throw new java.lang.IllegalArgumentException(\"Predicate must not be null\");\r\n} ",
+            "position":"org.apache.commons.collections4.functors.NotPredicate:46",
+            "type":"CtIfImpl"
+         },
+         "type":"adrStmt",
+         "transplantationPoint":{
+            "sourceCode":"boolean = false",
+            "position":"org.apache.commons.collections4.iterators.FilterIterator:103",
+            "type":"CtAssignmentImpl"
+         },
+         "status":0
+      },
+      {
+         "failures":[
+
+         ],
+         "variableMapping":{
+
+         },
+         "name":"addRandom",
+         "transplant":{
+            "sourceCode":"boolean boolean = false",
+            "position":"org.apache.commons.collections4.map.MultiKeyMap:793",
+            "type":"CtLocalVariableImpl"
+         },
+         "type":"adrStmt",
+         "transplantationPoint":{
+            "sourceCode":"if ((boolean) == false) {\r\n    throw new java.util.NoSuchElementException(\"No more elements in the iteration\");\r\n} ",
+            "position":"org.apache.commons.collections4.iterators.ObjectGraphIterator:221",
+            "type":"CtIfImpl"
+         },
+         "status":0
+      },
+      {
+         "failures":[
+
+         ],
+         "variableMapping":{
+            "maximumCacheSize":"nextIndex"
+         },
+         "name":"add",
+         "transplant":{
+            "sourceCode":"this.int = int",
+            "position":"org.apache.commons.collections4.list.NodeCachingLinkedList:114",
+            "type":"CtAssignmentImpl"
+         },
+         "type":"adrStmt",
+         "transplantationPoint":{
+            "sourceCode":"(int)--",
+            "position":"org.apache.commons.collections4.iterators.FilterListIterator:150",
+            "type":"CtUnaryOperatorImpl"
+         },
+         "status":0
+      }
+   ],
+   "failedTests":[
+
+   ],
+   "id":1,
+   "status":0
+}

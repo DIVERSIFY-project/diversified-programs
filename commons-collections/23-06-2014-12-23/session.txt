@@ -1,0 +1,5 @@
+Total trials: 100
+Transformation size: 5
+Sosies: 52
+Test failed trials: 24
+Compile failed trials: 24
